@@ -1,0 +1,10 @@
+The Two Wheel Gyro program is located in src/myblocks/gyro/2WheelGyro.ev3. If you click on view raw, your computer will download the program. This way, you can see the gyro components
+
+THE MYBLOCKS:
+-------------
+
+There are two kinds of myblocks : Gyro Turn Left and Gyro Turn Right. Both of these input parameters of speed and degrees, to be user friendly. These myblocks include a gyro reset that will set the gyro to 0. This means that you do not have to include a reset in the gyro function. There is also a hard reset in the project called Gyro_Reset which is a backup hard reset on the gyro. However, it may not be optimal to use in the myblock program itself as it takes a bit of time. That said, it is definitely and very accurate.
+
+THE UNIT TEsTS:
+--------------
+There are three unit tests to go along with the myblocks. If any user wants to make a change, feel free to, but they can be checked using the three respective unit tests. One includes the left gyro myblock, one tests the right myblock, and the third tests both of them.
